@@ -2,8 +2,8 @@
 import random
 
 answerNum = random.randint(1, 100)
-for i in range(1, 9):
-    guess = input("請在8次內猜出數字：")
+for i in range(1, 8):
+    guess = input("請在7次內猜出數字：")
     if guess == "" or not guess.isdigit():
         break
     elif int(guess) == answerNum:
